@@ -3,8 +3,8 @@ Modification created by the Oesis Server allowing the production of drugs whose 
 ![Script in Action](https://mwojtasik.pl/img_zarabiam/portfolio/fivem/1.png)
 
 # Requirements
-* es_extended - [github.com]: https://github.com/ESX-Org/es_extended
-* pNotify - [github.com]: https://github.com/Nick78111/pNotify
+* es_extended - [github.com](https://github.com/ESX-Org/es_extended)
+* pNotify - [github.com](https://github.com/Nick78111/pNotify)
 
 
 ## Usage

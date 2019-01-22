@@ -84,7 +84,7 @@ animations_start = {
 },
 ```
 
-## Ostatnie pytanie i RNG
+## Last Question and RNG
 As you may have learned earlier, the last question contains quantitative information on the minimum (max) and minimum (min) amount of the final product that a player can receive.
 Example for the last question:
 ```

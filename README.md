@@ -25,7 +25,7 @@ options =
       seed_weed = { "Configuration option for a given item" },
 }
 ```
-## Opcje konfiguracyjne danego narkotyku
+## Config options for specified drug
 ```
 object - The name of the object that will appear after the beginning of the process ex. prop_weed_01
 ```

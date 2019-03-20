@@ -8,9 +8,9 @@ options =
   ['seed_weed'] = {
         object = 'prop_weed_01',
         end_object = 'prop_weed_02',
-        fail_msg = 'Niestety, twoja roślinka zwiędła!',
-        success_msg = 'Gratulacje, dokonałeś zbiorów z roślinki!',
-        start_msg = 'Rozpoczynam uprawę rośliniki.',
+        fail_msg = _U('fail_msg'),
+        success_msg = _U('success_msg'),
+        start_msg = _U('start_msg'),
         success_item = 'weed',
         first_step = 2.35,
         steps = 7,
@@ -38,65 +38,65 @@ options =
         },
         questions = {
             {
-                title = 'Widzisz, że twoja roślinka kiełkuje, co robisz?',
+                title = _U('question_1'),
                 steps = {
-                    {label = 'Podlewam Roślinę', value = 1},
-                    {label = 'Nawożę Roslinę', value = 2},
-                    {label = 'Czekam', value = 3}
+                    {label = _U('answer_1.1'), value = 1},
+                    {label = _U('answer_1.2'), value = 2},
+                    {label = _U('answer_1.3'), value = 3}
                 },
                 correct = 1
             },
             {
-                title = 'Na twojej roślince pojawiły się zółte kropki, co robisz?',
+                title = _U('question_2'),
                 steps = {
-                    {label = 'Podlewam Roślinę', value = 1},
-                    {label = 'Nawożę Roslinę', value = 2},
-                    {label = 'Czekam', value = 3}
+                    {label = _U('answer_1.1'), value = 1},
+                    {label = _U('answer_1.2'), value = 2},
+                    {label = _U('answer_1.3'), value = 3}
                 },
                 correct = 2
             },
             {
-                title = 'Na liściach twojej rośliny pojawił się niebieski pył, co robisz?',
+                title = _U('question_3'),
                 steps = {
-                    {label = 'Zrywam poszczególne liście', value = 1},
-                    {label = 'Posypuje liście nawozem', value = 2},
-                    {label = 'Czekam', value = 3}
+                    {label = _U('answer_3.1'), value = 1},
+                    {label = _U('answer_3.2'), value = 2},
+                    {label = _U('answer_1.3'), value = 3}
                 },
                 correct = 3
             },
             {
-                title = 'U twojej roślinki pojawiły się pierwsze topy, co robisz?',
+                title = _U('question_4'),
                 steps = {
-                    {label = 'Podlewam Roślinę', value = 1},
-                    {label = 'Zrywam je od razu', value = 2},
-                    {label = 'Nawożę roślinę', value = 3}
+                    {label = _U('answer_1.1'), value = 1},
+                    {label = _U('answer_4.2'), value = 2},
+                    {label = _U('answer_4.3'), value = 3}
                 },
                 correct = 1
             },
             {
-                title = 'Po podlaniu twojej roślinki, zaczeły się pojawiać dziwne liście, co robisz?',
+                title = _U('question_5'),
                 steps = {
-                    {label = 'Podlewam Roślinę', value = 1},
-                    {label = 'Nawożę Roslinę', value = 2},
-                    {label = 'Czekam', value = 3}
+                    {label = _U('answer_1.1'), value = 1},
+                    {label = _U('answer_1.2'), value = 2},
+                    {label = _U('answer_1.3'), value = 3}
                 },
                 correct = 2
             },
             {
-                title = 'Twoja roślinka jest już prawie gotowa do ścięcia, co robisz?',
+                title = _U('question_6'),
                 steps = {
-                    {label = 'Podlewam Roślinę', value = 1},
-                    {label = 'Nawożę Roslinę', value = 2},
-                    {label = 'Czekam', value = 3}
+                    {label = _U('answer_1.1'), value = 1},
+                    {label = _U('answer_1.2'), value = 2},
+                    {label = _U('answer_1.3'), value = 3}
                 },
                 correct = 1
             },
             {
-                title = 'Twoja roślinka jest gotowa do zbiorów, co robisz?',
+                title = _U('question_7'),
                 steps = {
-                    {label = 'Zbierz przy użyciu nożyczek', value = 1, min = 5, max = 25},
-                    {label = 'Zbierz rękoma', value = 1, min = 10, max = 15},
-                    {label = 'Zetnij sekatorem', value = 1, min = 2, max = 40}
+                    {label = _U('answer_7.1'), value = 1, min = 5, max = 25},
+                    {label = _U('answer_7.2'), value = 1, min = 10, max = 15},
+                    {label = _U('answer_7.3'), value = 1, min = 2, max = 40}
                 },
                 correct = 1
             },

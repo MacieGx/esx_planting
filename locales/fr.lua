@@ -25,5 +25,10 @@ Locales['fr'] = {
   ['question_7'] = 'votre plante est prête pour la récolte, que faites-vous?',
   ['answer_7.1'] = 'je récolte à l\'aide de ciseaux',
   ['answer_7.2'] = 'je récolte avec mes mains',
-  ['answer_7.3'] = 'je récolte avec un sécateur',  
+  ['answer_7.3'] = 'je récolte avec un sécateur',
+  ['waitconfig'] = 'patientez au moins 10 secondes avant de recommencer',
+  ['police_req_1'] = 'il faut au moins ', 
+  ['police_req_2'] = ' policiers en ville pour commencer',   
+  ['police'] = 'action ~r~impossible~s~, ~b~policiers~s~:',
+  ['inv_full'] = 'vous ne pouvez plus récolter, votre inventaire est ~r~plein~s~',  
 }

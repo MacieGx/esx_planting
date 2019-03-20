@@ -11,7 +11,7 @@ ESX.RegisterUsableItem('seed_weed', function(source)
 	local currentTime = os.time(os.date("!*t"))
 	if lastTime and currentTime - lastTime < 10 then
 		TriggerClientEvent("pNotify:SendNotification", source, {
-		    text = 'Poczekaj przynajmniej 10 sekund przed ponownym rozpoczęciem tej opreacji.',
+		    text = _U('waitconfig'),
 		    type = "error",
 		    timeout = 2000,
 		    layout = "centerLeft"
@@ -35,13 +35,14 @@ ESX.RegisterUsableItem('seed_weed', function(source)
 		TriggerClientEvent('esx_receptury:RequestStart', _source, 'seed_weed', lastTime)
 	else
 		TriggerClientEvent("pNotify:SendNotification", _source, {
-		    text = 'Aby rozpocząć tą operację musi być być przynajmniej '.. Config.CopsOnDuty .. ' policjantów na służbie.',
+		    text = _U('police_req_1') .. Config.CopsOnDuty .. _U('police_req_2'),
 		    type = "error",
 		    timeout = 5000,
 		    layout = "centerLeft"
 		})
 		TriggerClientEvent("pNotify:SendNotification", _source, {
-		    text = 'Aktualna liczba policjantów na służbie: '.. cops ..'/'.. Config.CopsOnDuty,
+					text =  .. Config.CopsOnDuty .. _U('police2'),
+		    text = _U('police') .. cops ..'/'.. Config.CopsOnDuty,
 		    type = "info",
 		    timeout = 6000,
 		    layout = "centerLeft"
@@ -69,7 +70,7 @@ AddEventHandler("esx_receptury:statusSuccess", function(message, min, max, item)
 	if(itemProps.limit < itemProps.count + amount) then
 		xPlayer.setInventoryItem(item, itemProps.limit)
 		TriggerClientEvent("pNotify:SendNotification", source, {
-		    text = 'Porzucasz część towaru, gdyż nie masz już miejsca w kieszeniach.',
+		    text = _U('inv_full'),
 		    type = "error",
 		    timeout = 2000,
 		    layout = "centerLeft"

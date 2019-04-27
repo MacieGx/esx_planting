@@ -39,7 +39,6 @@ cops - The required cops on duty to start the proccess of planting
 ```
 ###### End Update 27.04.2019
 ```
-```
 object - The name of the object that will appear after the beginning of the process ex. prop_weed_01
 ```
 ```

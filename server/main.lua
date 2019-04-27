@@ -1,7 +1,5 @@
 ESX = nil
 local lastTime = nil
-local Config = {}
-Config.CopsOnDuty = 1
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
@@ -27,7 +25,7 @@ for item_name in pairs(options) do
             local xPlayer = ESX.GetPlayerFromId(xPlayers[i])
             if xPlayer.job.name == 'police' then
                 cops = cops + 1
-                if cops >= Config.CopsOnDuty then break end
+                if cops >= options[item_name].cops then break end
             end
         end
 

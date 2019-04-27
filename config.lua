@@ -12,6 +12,7 @@ options =
         success_msg = 'Gratulacje, dokonałeś zbiorów z roślinki!',
         start_msg = 'Rozpoczynam uprawę rośliniki.',
         success_item = 'weed',
+        cops = 0,
         first_step = 2.35,
         steps = 7,
         cords = {

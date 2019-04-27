@@ -29,17 +29,17 @@ for item_name in pairs(options) do
             end
         end
 
-        if cops >= Config.CopsOnDuty then
+        if cops >= options[item_name].cops then
             TriggerClientEvent('esx_receptury:RequestStart', _source, item_name, lastTime)
         else
             TriggerClientEvent("pNotify:SendNotification", _source, {
-                text = 'Aby rozpocząć tą operację musi być być przynajmniej '.. Config.CopsOnDuty .. ' policjantów na służbie.',
+                text = 'Aby rozpocząć tą operację musi być być przynajmniej '.. options[item_name].cops .. ' policjantów na służbie.',
                 type = "error",
                 timeout = 5000,
                 layout = "centerLeft"
             })
             TriggerClientEvent("pNotify:SendNotification", _source, {
-                text = 'Aktualna liczba policjantów na służbie: '.. cops ..'/'.. Config.CopsOnDuty,
+                text = 'Aktualna liczba policjantów na służbie: '.. cops ..'/'.. options[item_name].cops,
                 type = "info",
                 timeout = 6000,
                 layout = "centerLeft"

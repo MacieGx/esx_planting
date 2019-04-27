@@ -1,5 +1,7 @@
 ESX = nil
 local lastTime = nil
+local Config = {}
+Config.CopsOnDuty = 1
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 

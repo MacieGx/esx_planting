@@ -2,7 +2,6 @@ Config = {}
 Config.Locale = "fr"
 --You can add here buttons like inventory menu button. When player click this button, then action will be cancel.
 Config.cancel_buttons = {289, 170, 168, 56}
-Config.CopsOnDuty = 1
 
 options =
 {
@@ -13,6 +12,7 @@ options =
         success_msg = _U('success_msg'),
         start_msg = _U('start_msg'),
         success_item = 'weed',
+        cops = 0,
         first_step = 2.35,
         steps = 7,
         cords = {

@@ -6,6 +6,7 @@ Version "2.0"
 
 server_scripts {
     '@es_extended/locale.lua',
+    'config.lua',
     'server/main.lua'
 }
 

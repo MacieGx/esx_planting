@@ -2,6 +2,7 @@ Config = {}
 Config.Locale = "fr"
 --You can add here buttons like inventory menu button. When player click this button, then action will be cancel.
 Config.cancel_buttons = {289, 170, 168, 56}
+Config.CopsOnDuty = 1
 
 options =
 {

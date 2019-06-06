@@ -1,7 +1,7 @@
 # esx_planting
 Modification created by the Oesis Server allowing the production of drugs whose production is based on planting.
-WARNING: Be careful, some people impersonate my person and may offer scripts on my behalf. It's definitely not me!
-My only discord is: MacieG#0001
+# WARNING: Be careful, some people impersonate my person and may offer scripts on my behalf. It's definitely not me!
+## My only discord is: MacieG#0001
 ![Script in Action](https://mwojtasik.pl/img_zarabiam/portfolio/fivem/1.png)
 
 # Requirements
